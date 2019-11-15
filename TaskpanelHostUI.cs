@@ -1,5 +1,6 @@
-# Code by Nikhil S. Potabatti, 2019
-# https://scholarworks.iupui.edu/handle/1805/19992
+// Code by Nikhil S. Potabatti, 2019
+// https://scholarworks.iupui.edu/handle/1805/19992
+// Note: you need to define your paths in the code
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using System;
@@ -75,4 +76,4 @@ string outputFolderFeatureExtraction = @"D:\YourPath\solidworks-api-develop\Mesh
         Process FeatureExtraction = new Process();
 FeatureExtraction.StartInfo.Filename = @"D:\YourPath\Meshroom\alicevision\bin\aliceVision_featureExtraction.exe";
         FeatureExtraction.StartInfo.CreateNowWindow = false;
-        #page 131 line 80...
+        //page 131 line 80...
